@@ -1,0 +1,74 @@
+body  {
+    background-color: #161616;
+}
+
+#myVideo {
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #C84B31;
+    font-family: 'Play', sans-serif;
+}
+
+.nav-link {
+    color: #C84B31;
+    font-family: 'Play', sans-serif;
+}
+
+.display-5 {
+    font-family: 'Play', sans-serif;
+}
+
+.lead {
+    color: #ECDBBA;
+    font-family: 'Jura', sans-serif;
+}
+
+.featurette-heading {
+    color: #ECDBBA;
+    font-family: 'Play', sans-serif;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+.card-text1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.card-text2 {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: 'Play', sans-serif;
+}
+
+.end {
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+}
+
+.text-muted {
+    font-family: 'Jura', sans-serif;
+}
+
+.otz1 {
+  font-size: 50px;
+  font-family: 'Jura', sans-serif;
+  color: #C84B31;
+}
+
+.otz {
+  font-size: 20px;
+}
+
+.nam {
+  font-size: 35px;
+}
