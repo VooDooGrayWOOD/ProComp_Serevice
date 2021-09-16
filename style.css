@@ -72,3 +72,9 @@ body  {
 .nam {
   font-size: 35px;
 }
+
+.map {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
