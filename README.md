@@ -1,2 +1,2 @@
-# Сайт моей ремонтной мастерской ProComp Service
+# Website of my repair shop ProComp Service
 https://voodoograywood.github.io/ProComp_Service/
