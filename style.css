@@ -31,7 +31,7 @@ body  {
 }
 
 .card-body {
-    display: inline-block;
+    text-align: center;
 }
 
 .card-text {
