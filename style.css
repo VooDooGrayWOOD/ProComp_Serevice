@@ -30,6 +30,10 @@ body  {
     font-family: 'Play', sans-serif;
 }
 
+.card-body {
+    display: inline-block;
+}
+
 .card-text {
     display: flex;
     justify-content: center;
