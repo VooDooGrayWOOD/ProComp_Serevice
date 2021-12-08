@@ -1,13 +1,22 @@
+html {
+    font-size: 10px;
+}
+
+.container {
+    max-width: 79.5rem;
+    margin: auto;
+}
+
 body  {
     background-color: #161616;
 }
 
-#myVideo {
-    width: 100%;
+.navbar-brand {
+    font-size: 2rem;
 }
 
-.navbar-brand {
-    color: #C84B31;
+.navbar {
+    font-size: 1.5rem;
     font-family: 'Play', sans-serif;
 }
 
@@ -21,6 +30,7 @@ body  {
 }
 
 .lead {
+    font-size: 1.8rem;
     color: #ECDBBA;
     font-family: 'Jura', sans-serif;
 }
@@ -35,23 +45,17 @@ body  {
     text-align: center;
 }
 
-.card-text {
+.card-text, .card-text1, .card-text2, .map {
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    font-family: 'Play', sans-serif;
 }
 
 .card-text1 {
-    display: flex;
-    justify-content: center;
-    font-size: 45px;
+    font-size: 2rem;
 }
 
 .card-text2 {
-    display: flex;
-    justify-content: center;
-    font-size: 26px;
+    font-size: 2.5rem;
     font-family: 'Play', sans-serif;
 }
 
@@ -60,26 +64,65 @@ body  {
     font-family: 'Play', sans-serif;
 }
 
-.text-muted {
+.text-muted, .end {
+    font-size: 1.8rem;
     font-family: 'Jura', sans-serif;
 }
 
 .otz1 {
-  font-size: 50px;
-  font-family: 'Jura', sans-serif;
-  color: #C84B31;
+    font-size: 5rem;
+    font-family: 'Jura', sans-serif;
+    color: #C84B31;
 }
 
 .otz {
-  font-size: 20px;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.otziv-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col-lg-4 {
+    width: 100%;
+}
+
+.otziv-item {
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nam {
-  font-size: 35px;
+    font-size: 3.5rem;
+    text-align: center;
 }
 
 .map {
+    border-radius: 1rem;
+}
+
+.d-flex {
     display: flex;
-    justify-content: center;
-    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem;
+}
+
+@media screen and (max-width: 500px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .bg-dark {
+        margin-bottom: .8rem;
+    }
+    .otziv-name {
+        flex-direction: column;
+    }
 }
