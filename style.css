@@ -18,10 +18,11 @@ body  {
 }
 
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .navbar {
+    border-radius: .4rem;
     font-size: 1.5rem;
     font-family: 'Play', sans-serif;
 }
@@ -106,10 +107,6 @@ body  {
 .nam {
     font-size: 3.5rem;
     text-align: center;
-}
-
-.map {
-    border-radius: 1rem;
 }
 
 .d-flex {
